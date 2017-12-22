@@ -1,0 +1,25 @@
+{
+  "name": "with-safe-area",
+  "version": "1.0.0",
+  "description": "HOC make you can use SafeAreaView to iOS pre-11",
+  "main": "index.js",
+  "repository": "https://github.com/aligos/with-safe-area.git",
+  "author": "Rahmat Aligos <rahmat.aligos@yahoo.com>",
+  "license": "MIT",
+  "private": false,
+    "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-universe": "^1.0.6",
+    "eslint-plugin-styled-components-config": "^0.0.2",
+    "jest-expo": "23.0.0",
+    "prettier": "^1.9.2",
+    "react-native-scripts": "1.8.1",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "eslintConfig": {
+    "extends": "universe"
+  }
+}
